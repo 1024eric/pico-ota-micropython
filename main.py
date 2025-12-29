@@ -9,7 +9,7 @@ if pin.value() is 0:
     ugit.pull_all()
     
 #main code here
-TIME_MS=2000
+TIME_MS=100
 LED = Pin("LED", Pin.OUT)
 while True:
     LED.off()
