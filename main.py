@@ -1,13 +1,7 @@
 import ugit
 from machine import Pin
 import time
-#ugit.backup()
 ugit.pull_all()
-# NEW TEST
-#pin = Pin(0,Pin.IN,Pin.PULL_UP)
-#if pin.value() is 0:
-  #  ugit.pull_all()
-    
 #main code here
 TIME_MS=100
 LED = Pin("LED", Pin.OUT)
