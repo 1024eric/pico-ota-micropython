@@ -1,7 +1,7 @@
-import ugit
+
 from machine import Pin
 import time
-ugit.pull_all()
+# This from Github
 #main code here
 TIME_MS=100
 LED = Pin("LED", Pin.OUT)
