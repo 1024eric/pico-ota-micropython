@@ -3,7 +3,7 @@ from machine import Pin
 import time
 # This from Github
 #main code here
-TIME_MS=100
+TIME_MS=1000
 LED = Pin("LED", Pin.OUT)
 while True:
     LED.off()
